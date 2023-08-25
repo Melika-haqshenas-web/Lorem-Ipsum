@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(241, 245, 248);
+    color: rgb(16, 42, 66);
+    line-height: 1.5;
+    display: block;
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 991px) {
+        font-size: 14px;
+    }
+    >div{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        >div{
+            width: 30vw;
+            height: 30px;
+            background-color: #49a6e9;
+            color: rgb(6, 50, 81);
+            letter-spacing: 2px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+    }
+    >section{
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+        >h3{
+            text-transform: uppercase;
+            text-align: center;
+            color: rgb(6, 50, 81);
+            font-size: 20px;
+            letter-spacing: 4px;
+            line-height: 1.25;
+            margin-bottom: 12px;
+            font-family: 'Roboto', sans-serif;
+        }
+        >div{
+            text-transform: capitalize;
+            letter-spacing: 4px;
+            margin-top: 32px;
+            margin-bottom: 64px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            >label{
+                font-size: 20px;
+                color: rgb(6, 50, 81);
+                text-align: center;
+            }
+            >input{
+                padding: 4px 8px;
+                width: 64px;
+                border-radius: 8px;
+                border: none;
+                margin: 0 8px;
+                font-size: 20px;
+            }
+            >button{
+                text-transform: uppercase;
+                background-color: #49a6e9;
+                color: rgb(6, 50, 81);
+                padding: 6px 12px;
+                letter-spacing: 1px;
+                display: inline-block;
+                transition: all 0.3s linear;
+                font-size: 14px;
+                border: 2px solid #49a6e9;
+                cursor: pointer;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+                border-radius: 8px;
+            }
+        }
+        >#lorem-text{
+            display: block;
+            >p{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                margin-bottom: 32px;
+                color: rgb(97, 125, 152);
+            }
+        }
+    }
+}
